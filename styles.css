@@ -1,0 +1,199 @@
+/* @Media screen set to 1440px and 375px for desktop and mobile respectively */
+@media screen and (max-width: 1440px){
+    body {
+        font-size: 18px;
+    }
+    .div1{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 85px;
+        background-image: url("images/bg-hero-desktop.svg");
+    }
+    .div2, .div3, .div4 {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 85px;
+        box-shadow: 0px 2px 2px 3px rgba(136, 136, 136, 0.247);
+        border-radius: 7px;
+        padding: 5px;
+}
+    .pad{
+        padding: 30px;
+    }
+    .div5 {
+        width: 280px;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        border: 4px;
+        border-radius: 5px;
+        margin-top: 30%;
+        box-shadow: 0px 2px 2px 3px rgba(136, 136, 136, 0.247);
+        margin: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 2%;
+        transform: translate(0%, 30%);
+}
+.hd2{
+    margin-left: 60%;
+    margin-top: 30px;
+}
+.flex1a, .flex2a, .flex3b, .flex4a {
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 50%;
+}
+.div6{
+    background-color: hsl(192, 94%, 13%);
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+}
+@media screen and (max-width: 375px){
+    body {
+        font-size: 18px;
+    }
+    .div1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 85px;
+        background-image: url("images/bg-hero-desktop.svg");
+        text-align: center;
+    }
+    .div2, .div3, .div4 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+            box-shadow: 0px 1px 2px 3px rgba(136, 136, 136, 0.103);
+            border-radius: 7px;
+            padding: 5px;
+            width: 300px;
+    }
+    .pad{
+        padding: 30px;}
+    .div5 {
+            width: 280px;
+            height: 100px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            border: 4px;
+            border-radius: 5px;
+            margin-top: 30%;
+            box-shadow: 0px 2px 2px 3px rgba(136, 136, 136, 0.247);
+            margin: auto;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 2%;
+            transform: translate(0%, -10%);
+}
+    .hd2{
+        margin-left: 20%;
+        margin-top: 30px;
+}
+.flex1a, .flex2a, .flex3b, .flex4a {
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 100%;
+}
+.div6{
+    background-color: hsl(192, 94%, 13%);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cls1{
+    width: 300px;
+    margin-right: 40px;
+}
+.cls2, .cls3{
+    width: 200px;
+    padding-top: 70px;
+}
+.cls4{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 80px;
+}
+.hd1{
+    margin-left: 15px;
+}
+#lg{
+    padding-top: 10%;
+}
+#lg2{
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 255, 255));
+}
+
+.bgColor{
+    background-color: hsl(193, 100%, 96%);
+    padding-top: 3%;
+}
+#but1{
+    background-color: white;
+    color: black;
+    padding: 5px 20px 5px 20px;
+}
+.flex1b, .flex2b, .flex3a, .flex4b{
+    height: 400px;
+    width: 400px;
+    margin-top: 2opx;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.head{
+    float;
+}
+td{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+#size{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.button{
+    background-color: rgb(247, 103, 163);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.button:focus {
+    background-color: Pink: hsl(322, 100%, 66%);
+}
+
+#first{
+    padding: 15px;
+}
+
+#copy{
+    padding-top: 200px;
+    padding-right: 10px;
+}
